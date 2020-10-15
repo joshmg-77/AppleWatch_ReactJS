@@ -1,0 +1,16 @@
+
+  .bottom {
+    display: none;
+    height: 10%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    border: 2px solid aqua;
+  }
+  .bottom .fa-battery-half {
+    transform: rotate(-90deg);
+    width: 15px;
+    height: 10px;
+    color: #00ff00;
+  }
