@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/stylesSvg.css";
+import "../../styles/stylesSvg.css";
 
  const Svg =()=><svg xmlns="http://www.w3.org/2000/svg" width="20" height="50" viewBox="0 0 100 100"  className="crow">
         <rect fill="black" />

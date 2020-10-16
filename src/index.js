@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Clock from './Components/Clock';
+import App from './Components/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Clock />
+    <App />
     <button style={{"margin-top":"40px"}}>Change color</button>
   </React.StrictMode>,
   document.getElementById('root')

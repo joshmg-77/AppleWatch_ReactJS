@@ -1,15 +1,15 @@
 import React,{Fragment} from 'react';
-import "../styles/Apps.css";
-import Maps from "../assets/icon-and-image-small-icon-maps.jpg";
-import weather from "../assets/icon-and-image-small-icon-weather.jpg";
-import mail from "../assets/icon-and-image-small-icon-mail.jpg";
-import timer from "../assets/icon-and-image-small-icon-timer.jpg";
-import phone from "../assets/icon-and-image-small-icon-phone.jpg";
-import fitness from "../assets/icon-and-image-small-icon-fitness.jpg";
-import settings from "../assets/icon-and-image-small-icon-settings.jpg";
-import activity from "../assets/featured-content-watchos-activity-icon_2x.png";
-import heart from "../assets/watchos6-heart-rate-icon.png";
-import spotify from "../assets/image_icon_spotify_pic_512x512.png";
+import "../styles/IconApps.css";
+import Maps from "../assets/InitIcons/maps.jpg";
+import weather from "../assets/InitIcons/weather.jpg";
+import mail from "../assets/InitIcons/mail.jpg";
+import timer from "../assets/InitIcons/timer.jpg";
+import phone from "../assets/InitIcons/phone.jpg";
+import fitness from "../assets/InitIcons/fitness.jpg";
+import settings from "../assets/InitIcons/settings.jpg";
+import activity from "../assets/InitIcons/activity.png";
+import heart from "../assets/InitIcons/heart.png";
+import spotify from "../assets/InitIcons/spotify.png";
 
 
 

@@ -1,14 +1,18 @@
 import React,{useState} from 'react';
 import Loading from "./Loading";
-import Apps from "./IconApps";
+import AppsIcons from "./IconApps";
 import Central from "./Central";
+import ViewApp from "./ViewApp";
+import Notification from "./Notification";
+import Home from "./Home";
 import "../styles/MainFrame.css"
 
 const MainFrame =(props)=>{
     //ShowApp separate UI 
   const [check,setCheck] = useState(false)
+  
   const HandBlack=(a)=>{
-   
+    
     a.target.tagName !== "IMG" ?setCheck(true):alert("nada")
   }
     
@@ -16,8 +20,12 @@ const MainFrame =(props)=>{
       <div className="main" onClick={HandBlack}>
             {!props.bool?(<Loading/>):(
                 <Central>
-                  {check?alert():(<Apps Hand={props.Hand}/>)}
-                  {/* <ViewApp />*/}
+                  
+                 
+                  {check?(<><Notification/>
+                  <Home/></>):(<AppsIcons Hand={props.Hand}/>)}
+                  {/*de acuerdo con el onclick y el nombre de la app se le pasa al viewApp y con css le damos jerarquia o con js ocultamos appsicons*/}
+                  {/*<ViewApp nameApp={"nombre app"}/>*/}
                 </Central>
               )}
       </div>

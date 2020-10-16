@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react';
 import Buttons from "./Buttons";
-import Notification from "./Notification"
-import MainFrame from "./MainFrame"
-import "../styles/Clock.css"
 
-const Clock =()=>{
+import MainFrame from "./MainFrame"
+import "../styles/App.css"
+
+const App =()=>{
     const [bool,setBool] = useState(false);
     const [ShowAppl,setShowAppl] = useState([]);
     useEffect(()=>{
@@ -18,10 +18,10 @@ const Clock =()=>{
     return(
          <div className="clock">
             <Buttons/>
-            <Notification/>
+
             <MainFrame bool={bool} Hand={ShowApp} />
             
          </div>
       ) 
   }
-  export default Clock;
+  export default App;

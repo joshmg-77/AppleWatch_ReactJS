@@ -1,10 +1,10 @@
 import React from 'react';
 import "../styles/Loading.css"
-
+import appleLogo from "../assets/Loader/apple-logo.svg"
 const Loading =()=>{
     return(
       <div className="apple">
-        <img alt="" src="https://www.svgrepo.com/show/162625/apple-logo.svg" /> 
+        <img alt="" src={appleLogo} /> 
       </div>
     )
   }

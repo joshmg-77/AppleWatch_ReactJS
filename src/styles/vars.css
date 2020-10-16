@@ -1,14 +1,13 @@
 :root{
-    --back: #fd0202;
-    --backgroundCrow: #fd0202;
-    --boxShadowMain: -5px -5px 10px #fc8888, -2px 5px 10px #fc8888,
-      -5px 0 10px #ffffff, -5px 0 3px #f80000;
-    --name:red;
+    --back: #424141;
+    --backgroundCrow: #424141;
+    --boxShadowMain:-5px -5px 10px #737476, -2px 5px 10px #737476,
+    -5px 0 10px #41484e, -5px 0 10px #41484e;
     }
-    /*
-        --back: #1b2631;
+    /* change colors using js
+    --back: #1b2631;
     --backgroundCrow: #424141;
     --boxShadowMain: -5px -5px 10px #737476, -2px 5px 10px #737476,
       -5px 0 10px #41484e, -5px 0 10px #41484e;
-    --name:red;
+    
     */
