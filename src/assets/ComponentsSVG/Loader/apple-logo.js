@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 311.265 311.265" style="enable-background:new 0 0 311.265 311.265;" xml:space="preserve">
+import React from "react";
+import "./AppleSvg.css";
+
+
+const AppleSvg =()=>(<svg className="Capa_1" x="0px" y="0px"
+	 viewBox="0 0 311.265 311.265" >
 <g>
 	<path d="M151.379,82.354c0.487,0.015,0.977,0.022,1.464,0.022c0.001,0,0.001,0,0.002,0c17.285,0,36.041-9.745,47.777-24.823
 		C212.736,42.011,218.24,23.367,215.723,6.4c-0.575-3.875-4.047-6.662-7.943-6.381c-17.035,1.193-36.32,11.551-47.987,25.772
@@ -55,4 +56,7 @@
 </g>
 <g>
 </g>
-</svg>
+</svg>)
+
+
+export default AppleSvg;

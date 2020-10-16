@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Buttons.css";
-import Crow from "../assets/SVGCrow/crow";
+import Crow from "../assets/SVGD/SVGCrow/crow";
 
 const Buttons = () => {
   return (

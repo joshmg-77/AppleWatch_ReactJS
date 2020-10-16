@@ -7,8 +7,12 @@
   position: absolute;
   z-index: 200;
   padding: 10px;
-  object-fit: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
   box-shadow: var(--boxShadowMain);
+ 
 }
 .main:before {
   content: "";
