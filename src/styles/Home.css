@@ -1,4 +1,4 @@
-.twoApps{
+.Widgets{
     width:90%;
     height: 60px;
     display:flex;
@@ -7,7 +7,7 @@
     
 }
 /*first widget*/
-.twoApps div:first-child{
+.Widgets div:first-child{
     height:60px;
     width:40%;
     background: rgba(46, 49, 45,0.6);
@@ -34,7 +34,7 @@
 }
 
 /*Second widget*/
-.twoApps div:last-child{
+.Widgets div:last-child{
     box-sizing: border-box;
     height:60px;
     width:40%;

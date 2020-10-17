@@ -16,23 +16,8 @@ body {
   border-radius: 60px;
   border: 10px solid var(--back);
   background: black;
-  position: relative;
- 
-  /*box-shadow:-4px -4px 15px black inset,
-    15px 4px 15px white inset,
-    15px 4px 15px white inset,
-    4px 4px 15px black inset;
-    box-shadow:0px 2px 5px white inset,0px -2px 5px white inset;*/
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
-/*.clock:after {
-    content: "";
-    width: 10px;
-    height: 60px;
-    position: absolute;
-    z-index: -1;
-    bottom: 70px;
-    cursor: pointer;
-    right: -15px;
-    border-radius: 20px;
-    background: var(--backgroundCrow);
-  }*/

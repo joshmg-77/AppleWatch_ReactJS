@@ -4,7 +4,7 @@ import "../styles/Central.css"
 const Central = (props)=>{
     return(
       <div className="central">
-        {/*todas las apps*/}
+        {/*all  apps*/}
         {props.children}
       </div>
     )
