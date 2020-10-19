@@ -2,7 +2,7 @@
 
 
 #Sections 
-/src/Components/Home/
+/../../Home/
 env/
 
 # dependencies
