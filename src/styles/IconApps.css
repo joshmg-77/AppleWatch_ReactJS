@@ -1,0 +1,96 @@
+
+  .sq {
+    width: 33.33%;
+    height: 40px;
+    border-radius: 50px;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:stretch;  
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .sq:first-child {
+    transform: translate(20px, 25px);
+  }
+  .sq:first-child:before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    width: 10px;
+    height: 10px;
+    background: url("https://developer.apple.com/design/human-interface-guidelines/watchos/images/icon-and-image-small-icon-weather.jpg");
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+  }
+  .sq:nth-child(2) {
+    transform: translate(10px, -10px);
+  }
+  .sq:nth-child(3) {
+    transform: translate(0px, 25px);
+  }
+  .sq:nth-child(3):before {
+    content: "";
+    position: absolute;
+    right: 50px;
+    top: -20px;
+    width: 15px;
+    height: 15px;
+    background: url("https://support.apple.com/library/content/dam/edam/applecare/images/en_US/applewatch/watchos6-heart-rate-icon.png");
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+  }
+  .sq:nth-child(4) {
+    transform: translate(15px, 25px);
+  }
+  .sq:nth-child(5) {
+    transform: translate(10px, -10px);
+  }
+  .sq:nth-child(6) {
+    transform: translate(0px, 25px);
+  }
+  .sq:nth-child(7) {
+    transform: translate(20px, 30px);
+  }
+  .sq:nth-child(7):before {
+    content: "";
+    position: absolute;
+    left: 30px;
+    bottom: -30px;
+    width: 15px;
+    height: 15px;
+    background: url("https://developer.apple.com/design/human-interface-guidelines/watchos/images/icon-and-image-small-icon-fitness.jpg");
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+  }
+  .sq:nth-child(8) {
+    transform: translate(10px, -10px);
+  }
+  .sq:nth-child(9) {
+    transform: translate(0, 30px);
+  }
+  .sq:nth-child(10) {
+    transform: translate(10px, -10px);
+  }
+  .sq:nth-child(10):before {
+    content: "";
+    position: absolute;
+    right: -5px;
+    bottom: -10px;
+    width: 15px;
+    height: 15px;
+    background: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/applewatch/featured-content-watchos-activity-icon_2x.png");
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
