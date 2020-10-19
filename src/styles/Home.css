@@ -60,9 +60,7 @@
     opacity: 0.8;
 }
 
-/*a lot of apps*/
 .appshome{
-   /* border:2px solid aqua;*/
     width:90%;
     height:50%;
     margin:15px auto;
@@ -70,7 +68,6 @@
     flex-flow:row wrap;
     justify-content:center;
     align-items:center;
-
 }
 .appshome > div{
 

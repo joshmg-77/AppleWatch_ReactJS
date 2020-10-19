@@ -8,11 +8,11 @@ import photos from "../assets/Home-xq/applephotos.jpg";
 import goolglePhotos from "../assets/Home-xq/googlephotos.png";
 import message from "../assets/Home-xq/message.png";
 import contacts from "../assets/Home-xq/contacts.jpg";
+import Wallpaper from "../assets/Wallpaper/Wallpaper.jpg";
 
 const Home = () => {
   useEffect(() => {
-    document.querySelector(".main").style.backgroundImage =
-      "url('https://i.pinimg.com/736x/49/1f/f2/491ff2072f1cd64a0fa4f6469884d541.jpg')";
+    document.querySelector(".main").style.backgroundImage = `url(${Wallpaper})`;
   });
   return (
     <>

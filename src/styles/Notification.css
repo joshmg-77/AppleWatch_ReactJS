@@ -13,15 +13,3 @@
     width: 20px;
     height: 10px;
   }
-/*  .bottom:before{
-    content:"";
-    position:absolute;
-    top:-5px;
-    left:50%;
-    transform:translate(-50%);
-    width:120px;
-    height:20px;
-    background:black;
-    border-radius: 10px;
-    z-index:-300;
-  }*/

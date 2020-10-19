@@ -7,7 +7,6 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-  {/*  <button style={{"margin-top":"40px"}}>Change color</button>*/}
   </React.StrictMode>,
   document.getElementById('root')
 );
