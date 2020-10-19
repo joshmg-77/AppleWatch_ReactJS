@@ -2,8 +2,8 @@
 
 
 #Sections 
-src/Components/Home
-.env
+/src/Components/Home
+/.env
 
 # dependencies
 /node_modules
