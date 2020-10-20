@@ -32,8 +32,4 @@ const MainFrame = (props) => {
     </div>
   );
 };
-/* este es el marco principal  
-  cuando demos click a la parte negra de la pantalla se mostrara lo que seria la ViewHome remplaza a Apps dentron de central   
-
-*/
 export default MainFrame;
