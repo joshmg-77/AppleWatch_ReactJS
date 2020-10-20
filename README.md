@@ -1,7 +1,7 @@
 ### Simple Simulation AppleWatch 
 
 
-######Just run script npm install and npm start
+###### Just run script npm install and npm start
 
 #### screenshots 
 
