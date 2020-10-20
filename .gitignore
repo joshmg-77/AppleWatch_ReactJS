@@ -3,7 +3,8 @@
 
 #Sections 
 
-env/
+/src/Components/HomeS
+.env
 
 # dependencies
 /node_modules
