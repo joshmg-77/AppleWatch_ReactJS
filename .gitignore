@@ -3,7 +3,7 @@
 
 #Sections 
 
-g
+env/
 
 # dependencies
 /node_modules
